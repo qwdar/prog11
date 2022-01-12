@@ -1,0 +1,47 @@
+1)переходим в dependes
+даем права фалйам chmod 764  ./
+собираем sudo make
+2)корневая папка
+давем права файлам chmod 764  ./
+3)переходим в папку share 
+тоже дать права chmod 764  ./
+4)возвращаемся в корневую папку и выполняем след комнады:
+sudo ./autogen.sh or sudo bash autogen.sh
+
+sudo ./configure --disable-dependency-tracking --enable-tests=no --with-gui=auto --without-miniupnpc --enable-glibc-back-compat --prefix=$PWD/depends/x86_64-pc-linux-gnu LDFLAGS="-static-libstdc++"
+
+sudo make check
+
+
+
+
+
+
+
+
+
+
+#####################################################################################################################################
+sudo ./configure --with-incompatible-bdb --with-gui=auto
+sudo make check
+
+
+sudo ./configure --prefix=$PWD/depends/aarch64-linux-gnu --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
+
+sudo ./configure --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
+sudo make HOST=arm-linux-gnueabihf
+
+sudo ./configure --prefix=$PWD/depends/x86_64-pc-linux-gnu --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
+
+
+sudo ./configure --disable-dependency-tracking --enable-tests=no --with-gui=auto --without-miniupnpc --enable-glibc-back-compat --prefix=$PWD/depends/x86_64-pc-linux-gnu LDFLAGS="-static-libstdc++"
+
+
+
+
+
+https://download.qt.io/archive/qt/5.9/5.9.7/qt-opensource-linux-x64-5.9.7.run
+
+chmod +x qt-opensource-linux-x64-5.9.7.run
+
+sudo ./qt-opensource-linux-x64-5.9.7.run
