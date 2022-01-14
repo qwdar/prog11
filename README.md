@@ -1,1 +1,2 @@
-# prog8
+# MiCoin
+This is fork of litecoin
