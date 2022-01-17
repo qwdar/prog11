@@ -1,3 +1,3 @@
 # MiCoin
 This is fork of litecoin
-mic1qrhuwwtv0x0emrg47j5h95ljuyzkgfhc03chxq8
+LhfVQ4djU8BA2Lf12gGyUfZ6DF3Yv8ryew
