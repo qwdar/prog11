@@ -1,7 +1,6 @@
 Micoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/micoin-project/micoin.svg?branch=master)](https://travis-ci.org/micoin-project/micoin)
 
 https://micoin.org
 
