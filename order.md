@@ -1,17 +1,23 @@
 1)go to dependes
  cd ./dependes
+ 
 2)give execution rules
  chmod +x ./*
-make
- sudo make
+ make
+
 3)go to root derectory
  cd ../
+
 4)give execution rules
  chmod +x ./*
+
 5)change directory to share
  cd ./share
-6) give chmod +x ./* 
+
+6)give chmod +x ./* 
+
 7)go to root directory and issue:
+
 ./autogen.sh # or sudo bash autogen.sh
 
 ./configure --disable-dependency-tracking --enable-tests=no --with-gui=auto --without-miniupnpc --enable-glibc-back-compat --prefix=$PWD/depends/x86_64-pc-linux-gnu LDFLAGS="-static-libstdc++"
