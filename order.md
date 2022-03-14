@@ -14,7 +14,7 @@
 5)change directory to share
  cd ./share
 
-6) give chmod +x ./* 
+6)give chmod +x ./* 
 
 7)go to root directory and issue:
 
